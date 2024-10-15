@@ -6,6 +6,20 @@ class Login(FormsBase):
         self.__senha = senha
         super().__init__(cpf, nome, data_nascimento)
 
-    def fazer_login(self):
-        pass
+    @property
+    def senha(self):
+        return self.__senha
+    
+    @senha.setter
+    def senha(self,novo_senha):
+        self.__senha = novo_senha
+
+    def fazer_login(self,login,senha):
+        if login == self.login and senha == self.senha:
+            print("Login realizado com sucesso")
+        elif login == self.login and senha!=self.senha or login != self.login and senha ==self.senha:
+            print("Usuario ou senha estao errados")
+
+        
+        
     
