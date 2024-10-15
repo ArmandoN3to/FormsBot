@@ -27,6 +27,11 @@ class FormsBase:
     @data_nascimento.setter
     def data_nascimento(self,novo_data_nascimento):
         self.__data_nascimento = novo_data_nascimento 
+    
+    def preencher_forms(self):
+        return print(f'nome: {self.nome} cpf: {self.cpf} data de nascimento: {self.data_nascimento}')
+
+
 
 
     
