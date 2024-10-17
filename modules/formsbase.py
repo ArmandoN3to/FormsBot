@@ -29,7 +29,7 @@ class FormsBase:
         self.__data_nascimento = novo_data_nascimento 
     
     def preencher_forms(self):
-        return print(f'nome: {self.nome} cpf: {self.cpf} data de nascimento: {self.data_nascimento}')
+        return print(f'nome: {self.nome}\n cpf: {self.cpf} \ndata de nascimento: {self.data_nascimento}\n')
 
 
 
