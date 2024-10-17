@@ -1,4 +1,4 @@
-from formsbase import FormsBase
+from modules.formsbase import FormsBase
 
 class FormEndereco(FormsBase):
     def __init__(self, cpf, nome, data_nascimento,cep, rua, numero, bairro, cidade):
