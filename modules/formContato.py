@@ -1,4 +1,4 @@
-from formsbase import FormsBase
+from modules.formsBase import FormsBase
 
 class FormContato(FormsBase):
     def __init__(self, cpf, nome, data_nascimento,telefone,celular, email:str):
