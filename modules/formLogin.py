@@ -1,6 +1,6 @@
-from formsbase import FormsBase
+from modules.formsBase import FormsBase
 
-class Login(FormsBase):
+class FormsLogin(FormsBase):
     def __init__(self, cpf, nome, data_nascimento,login,senha):
         self.login = login
         self.__senha = senha
