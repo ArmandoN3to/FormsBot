@@ -8,4 +8,4 @@ class FormContato(FormsBase):
         super().__init__(cpf, nome, data_nascimento)
     
     def preencher_forms(self):
-        return print(f'nome: {self.nome} cpf: {self.cpf} data de nascimento: {self.data_nascimento} Telefone: {self.telefone} Celular: {self.celular} Email: {self.email}')
+        return print(f'nome: {self.nome}\n cpf: {self.cpf}\n data de nascimento: {self.data_nascimento}\n Telefone: {self.telefone} \nCelular: {self.celular} \nEmail: {self.email}\n')
