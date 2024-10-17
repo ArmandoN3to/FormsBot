@@ -16,9 +16,9 @@ class FormsLogin(FormsBase):
 
     def fazer_login(self,login,senha):
         if login == self.login and senha == self.senha:
-            print("Login realizado com sucesso")
+            print("Login realizado com sucesso\n")
         elif login == self.login and senha!=self.senha or login != self.login and senha ==self.senha:
-            print("Usuario ou senha estao errados")
+            print("Usuario ou senha estao errados\n")
 
         
         
