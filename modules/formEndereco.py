@@ -1,4 +1,4 @@
-from modules.formsbase import FormsBase
+from modules.formsBase import FormsBase
 
 class FormEndereco(FormsBase):
     def __init__(self, cpf, nome, data_nascimento,cep, rua, numero, bairro, cidade):
@@ -10,7 +10,7 @@ class FormEndereco(FormsBase):
         self.__cidade = cidade
 
     
-    def imprimir_endereco(self):
-        return f" Nome: {self.nome} \n Cpf: {self.cpf} \n Data nascimento: {self.data_nascimento} \n CEP: {self.__cep} \n Rua: {self.__rua} \n Número: {self.__numero} \n Bairro: {self.__bairro} \n Cidade: {self.__cidade}"
+    def preencher_forms(self):
+        return print(f" Nome: {self.nome} \n Cpf: {self.cpf} \n Data nascimento: {self.data_nascimento} \n CEP: {self.__cep} \n Rua: {self.__rua} \n Número: {self.__numero} \n Bairro: {self.__bairro} \n Cidade: {self.__cidade}\n")
     
 
